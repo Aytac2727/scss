@@ -1,0 +1,42 @@
+$black:#000;
+$orange:#FD3E04;
+$white:#fff;
+
+#header {
+    .menu {
+        ul {
+            li {
+                padding: 15px;
+
+                &:first-child a {
+                    color: $orange;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: $black;
+                }
+            }
+        }
+    }
+}
+
+/*header end*/
+
+#mauris {
+    .mauris-left{
+        .mauris-ico {
+            margin: 20px 0;
+            li {
+                padding: 12px;
+            }
+        }
+    }
+    button {
+        padding: 20px 40px;
+        background: $orange;
+        color: $white;
+        border: none;
+    }
+
+}
