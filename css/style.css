@@ -11,19 +11,226 @@
   color: #000;
 }
 
-/*header end*/
-#mauris .mauris-left .mauris-ico {
-  margin: 20px 0;
+#mauris {
+  padding: 2em 0;
+  background-color: #f7f7f7;
 }
 
-#mauris .mauris-left .mauris-ico li {
-  padding: 12px;
+#mauris .mauris-left h1 {
+  font-size: 4em;
 }
 
-#mauris button {
+#mauris .mauris-left p {
+  font-size: 23px;
+  padding: 30px 0;
+}
+
+#mauris .mauris-left span {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+#mauris .btn button {
   padding: 20px 40px;
   background: #FD3E04;
   color: #fff;
   border: none;
+  font-size: 22px;
+  font-weight: bolder;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#mauris .btn button:hover {
+  cursor: pointer;
+  background-color: #e63d0a;
+}
+
+#mauris .btn h1 {
+  font-size: 3em;
+}
+
+#mauris .btn span {
+  color: #b4adad;
+  font-size: 22px;
+}
+
+#mauris .btn ul li {
+  padding: 0 5px;
+}
+
+#website {
+  background-color: #000;
+}
+
+#website .websites {
+  padding: 6em 0;
+}
+
+#website .websites .web-item .web-text h2 {
+  color: #FD3E04;
+  font-size: 27px;
+}
+
+#website .websites .web-item .web-text p {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#rent {
+  text-align: center;
+  margin: 5em 0;
+}
+
+#rent h2 {
+  font-size: 42px;
+  padding-bottom: 2em;
+}
+
+#rent .prices .compact h1 {
+  font-size: 28px;
+}
+
+#rent .prices .compact span {
+  color: #a2a2a2;
+  font-size: 16px;
+}
+
+#rent .prices .compact p {
+  color: #FD3E04;
+  font-size: 20px;
+}
+
+#rent .prices .rent-ico ul li {
+  padding: 25px 15px;
+}
+
+#rent .prices .rent-ico ul p {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+#rent .prices button {
+  border: none;
+  color: #FD3E04;
+  font-size: 20px;
+  background-color: #fff;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#rent .prices button:hover {
+  border-bottom: 1px solid #FD3E04;
+  cursor: pointer;
+}
+
+#rent .prices .bottom-text {
+  padding: 4em 0;
+}
+
+#rent .prices .bottom-text p {
+  font-size: 20px;
+}
+
+#rent .prices .bottom-text button {
+  border: none;
+  padding: 12px 28px;
+  background-color: #e7e2e2;
+  color: #000;
+  margin-top: 2em;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#rent .prices .bottom-text button:hover {
+  background-color: #c4c4c4;
+  cursor: pointer;
+}
+
+#locations .photos .place-img {
+  overflow: hidden;
+}
+
+#locations .photos .place-img img {
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#locations .photos .place-img img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#locations .photos .place-text {
+  padding: 20px 0;
+}
+
+#locations .photos .place-text ul h1 {
+  color: #FD3E04;
+  font-size: 30px;
+}
+
+#locations .photos .place-text ul p {
+  font-size: 22px;
+}
+
+#locations .photos button {
+  border: none;
+  padding: 14px 30px;
+  background-color: #f7f7f7;
+  color: #000;
+  margin: 3em 0;
+  font-size: 18px;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#locations .photos button:hover {
+  background-color: #c4c4c4;
+  cursor: pointer;
+}
+
+#footer {
+  background-color: #f7f7f7;
+  padding: 2em 0;
+}
+
+#footer .container .last {
+  margin: 2em 0;
+}
+
+#footer .container .last h1::before {
+  content: "\f3cd";
+  font-family: "Font Awesome 5 Pro";
+  color: #FD3E04;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+#footer .container .last p {
+  font-size: 20px;
+}
+
+#footer .container .last span {
+  font-size: 20px;
+}
+
+#footer .container .group {
+  padding-left: 20px;
+  padding-top: 3em;
+}
+
+#footer .container .group p {
+  font-size: 20px;
+}
+
+#footer .container .group a {
+  text-decoration: none;
+  color: #FD3E04;
+}
+
+#footer .container .group a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */

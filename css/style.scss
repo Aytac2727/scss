@@ -1,6 +1,20 @@
 $black:#000;
 $orange:#FD3E04;
 $white:#fff;
+$orangeb:rgb(230, 61, 10);
+$background:rgb(247, 247, 247);
+.btns {
+            background: $orange;
+            color: $white;
+            border: none;
+            transition: .7s;
+}
+
+.btn-black {
+    border: none;
+    transition: .7s;
+    color:black;
+}
 
 #header {
     .menu {
@@ -21,22 +35,245 @@ $white:#fff;
     }
 }
 
-/*header end*/
+// header end
 
+// mauris
 #mauris {
-    .mauris-left{
-        .mauris-ico {
-            margin: 20px 0;
+    padding: 2em 0;
+    background-color: $background;
+    .mauris-left {
+
+        h1 {
+            font-size: 4em;
+        }
+        p{
+            font-size: 23px;
+            padding: 30px 0;
+        }
+
+        span {
+            font-size: 20px;
+            padding-left: 10px;
+        }
+    }
+
+    .btn {
+        button { @extend .btns;
+            padding: 20px 40px;
+            font-size: 22px;
+            font-weight: bolder;
+            &:hover {
+                cursor: pointer;
+                background-color:$orangeb ;
+            }
+        }
+        h1 {
+            font-size: 3em;
+        }
+        span {
+            color:rgb(180, 173, 173);
+            font-size: 22px;
+        }
+        ul {
             li {
-                padding: 12px;
+                padding: 0 5px;
             }
         }
     }
-    button {
-        padding: 20px 40px;
-        background: $orange;
-        color: $white;
-        border: none;
+}
+// mauris end
+// websites
+
+#website {
+    background-color: $black;
+
+    .websites {
+        padding: 6em 0;
+
+        .web-item {
+            .web-text {
+                h2 {
+                    color: $orange;
+                    font-size: 27px;
+                }
+
+                p {
+                    color: $white;
+                    font-size: 20px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+//  websites end
+// rent
+
+#rent {
+    text-align: center;
+    margin: 5em 0;
+
+    h2 {
+        font-size: 42px;
+        padding-bottom: 2em;
     }
 
+    .prices {
+        .compact {
+
+            h1 {
+                font-size: 28px;
+            }
+
+            span {
+                color: #a2a2a2;
+                font-size: 16px;
+            }
+
+            p {
+                color: $orange;
+                font-size: 20px;
+            }
+        }
+
+        .rent-ico {
+            ul {
+                li {
+                    padding: 25px 15px;
+                }
+
+                p {
+                    font-size: 18px;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        button {@extend .btns;
+            color: $orange;
+            font-size: 20px;
+            background-color: $white;
+
+            &:hover {
+                border-bottom: 1px solid $orange;
+                cursor: pointer;
+            }
+        }
+
+        .bottom-text {
+            padding: 4em 0;
+
+            p {
+                font-size: 20px;
+            }
+
+            button {@extend .btn-black;
+                padding: 12px 28px;
+                background-color: rgb(231, 226, 226);
+                margin-top: 2em;
+
+                &:hover {
+                    background-color: rgb(196, 196, 196);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+// rent end
+// locations
+
+#locations {
+    .photos {
+        .place-img {
+            overflow: hidden;
+            img {
+                transition: .7s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .place-text {
+            padding: 20px 0;
+
+            ul {
+                h1 {
+                    color: $orange;
+                    font-size: 30px;
+                }
+
+                p {
+                    font-size: 22px;
+                }
+            }
+        }
+
+        button {@extend .btn-black;
+            padding: 14px 30px;
+            background-color: $background;
+            margin: 3em 0;
+            font-size: 18px;
+
+            &:hover {
+                background-color: rgb(196, 196, 196);
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// locations end
+
+// footer
+
+#footer {
+    background-color: $background;
+    padding: 2em 0;
+
+    .container {
+        .last {
+            margin: 2em 0;
+
+            h1 {
+                &::before {
+                    content: "\f3cd";
+                    font-family: "Font Awesome 5 Pro";
+                    color: $orange;
+                    padding-right: 10px;
+                    font-size: 20px;
+                }
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            span {
+                font-size: 20px;
+            }
+        }
+
+        .group {
+            padding-left: 20px;
+            padding-top: 3em;
+
+            p {
+                font-size: 20px;
+            }
+
+            a {
+                text-decoration: none;
+                color: $orange;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
 }
